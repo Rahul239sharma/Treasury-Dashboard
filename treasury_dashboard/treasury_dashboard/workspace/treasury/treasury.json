@@ -1,0 +1,299 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"trs001\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Treasury at a glance</b></span>\",\"col\":12}},{\"id\":\"trs002\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Pending Treasury Approvals\",\"col\":3}},{\"id\":\"trs003\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Pending Approval Value\",\"col\":3}},{\"id\":\"trs004\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Approved Awaiting Posting\",\"col\":3}},{\"id\":\"trs005\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Requests Posted This Month\",\"col\":3}},{\"id\":\"trs006\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"trs007\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick access</b></span>\",\"col\":12}},{\"id\":\"trs008\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Treasury Dashboard\",\"col\":3}},{\"id\":\"trs009\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Approval Queue\",\"col\":3}},{\"id\":\"trs010\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Awaiting Posting\",\"col\":3}},{\"id\":\"trs011\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Treasury Requests\",\"col\":3}},{\"id\":\"trs012\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"trs013\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Documents &amp; reports</b></span>\",\"col\":12}},{\"id\":\"trs014\",\"type\":\"card\",\"data\":{\"card_name\":\"Treasury\",\"col\":3}},{\"id\":\"trs015\",\"type\":\"card\",\"data\":{\"card_name\":\"Cash & Bank\",\"col\":3}},{\"id\":\"trs016\",\"type\":\"card\",\"data\":{\"card_name\":\"Fees & Bills\",\"col\":3}},{\"id\":\"trs017\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":3}}]",
+ "creation": "2026-11-10 12:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "money-coins-1",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Treasury",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Treasury",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Treasury Dashboard",
+   "link_count": 0,
+   "link_to": "treasury-dashboard",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link",
+   "dependencies": ""
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Treasury Request",
+   "link_count": 0,
+   "link_to": "Treasury Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link",
+   "dependencies": ""
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Treasury Audit Log",
+   "link_count": 0,
+   "link_to": "Treasury Audit Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link",
+   "dependencies": ""
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cash & Bank",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payment Entry",
+   "link_count": 0,
+   "link_to": "Payment Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link",
+   "dependencies": ""
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Journal Entry",
+   "link_count": 0,
+   "link_to": "Journal Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link",
+   "dependencies": ""
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bank Account",
+   "link_count": 0,
+   "link_to": "Bank Account",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link",
+   "dependencies": ""
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Mode of Payment",
+   "link_count": 0,
+   "link_to": "Mode of Payment",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link",
+   "dependencies": ""
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Fees & Bills",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Sales Invoice",
+   "link_count": 0,
+   "link_to": "Sales Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link",
+   "dependencies": ""
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Purchase Invoice",
+   "link_count": 0,
+   "link_to": "Purchase Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link",
+   "dependencies": ""
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Customer",
+   "link_count": 0,
+   "link_to": "Customer",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link",
+   "dependencies": ""
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Supplier",
+   "link_count": 0,
+   "link_to": "Supplier",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link",
+   "dependencies": ""
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "General Ledger",
+   "link_count": 0,
+   "link_to": "General Ledger",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link",
+   "dependencies": ""
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Accounts Receivable",
+   "link_count": 0,
+   "link_to": "Accounts Receivable",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link",
+   "dependencies": ""
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Accounts Payable",
+   "link_count": 0,
+   "link_to": "Accounts Payable",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link",
+   "dependencies": ""
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Bank Reconciliation Statement",
+   "link_count": 0,
+   "link_to": "Bank Reconciliation Statement",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link",
+   "dependencies": ""
+  }
+ ],
+ "modified": "2026-11-11 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Treasury Dashboard",
+ "name": "Treasury",
+ "number_cards": [
+  {
+   "label": "Pending Treasury Approvals",
+   "number_card_name": "Pending Treasury Approvals"
+  },
+  {
+   "label": "Pending Approval Value",
+   "number_card_name": "Pending Approval Value"
+  },
+  {
+   "label": "Approved Awaiting Posting",
+   "number_card_name": "Approved Awaiting Posting"
+  },
+  {
+   "label": "Requests Posted This Month",
+   "number_card_name": "Requests Posted This Month"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "",
+ "roles": [
+  {
+   "role": "Treasury Cashier"
+  },
+  {
+   "role": "Treasury Officer"
+  },
+  {
+   "role": "Treasury Approver"
+  },
+  {
+   "role": "Accounts Manager"
+  },
+  {
+   "role": "Accounts User"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 0.5,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "",
+   "label": "Treasury Dashboard",
+   "link_to": "treasury-dashboard",
+   "type": "Page"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "",
+   "label": "Approval Queue",
+   "type": "URL",
+   "url": "/app/treasury-dashboard?status=Pending%20Approval"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "",
+   "label": "Awaiting Posting",
+   "type": "URL",
+   "url": "/app/treasury-dashboard?status=Approved"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Treasury Requests",
+   "link_to": "Treasury Request",
+   "type": "DocType",
+   "stats_filter": "[[\"Treasury Request\",\"status\",\"=\",\"Pending Approval\",false]]",
+   "format": "{} Pending"
+  }
+ ],
+ "title": "Treasury"
+}
